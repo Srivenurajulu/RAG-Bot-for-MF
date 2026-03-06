@@ -170,8 +170,8 @@ if "context_fund" not in st.session_state:
 st.title("💰 Mutual Fund FAQ Assistant")
 
 st.caption(
-    "<p style='text-align: center; color: red; font-size: 0.8rem;'>"
-   <b>Factual insights on Mutual Fund related terms - Expense Ratio • NAV • SIP • Riskometer • Benchmark</b>
+    "<p style='text-align: center; color: red; font-size: 0.8rem; font-weight: bold;'>"
+    "Factual insights on Mutual Fund related terms - Expense Ratio • NAV • SIP • Riskometer • Benchmark"
     "</p>", 
     unsafe_allow_html=True
 )
