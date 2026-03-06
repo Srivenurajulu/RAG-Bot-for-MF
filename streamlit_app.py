@@ -31,6 +31,12 @@ except Exception:
 
 import streamlit as st
 from Phase4_Backend_API.chat import handle_chat
+from Phase4_Backend_API.pii_check import contains_pii
+
+PII_REJECTION_MESSAGE = (
+    "Personal information is not accepted. Please do not send PAN, "
+    "Aadhaar, account numbers, OTPs, email, phone, folio or CIN."
+)
 
 st.set_page_config(
     page_title="Mutual Fund FAQ Assistant",
@@ -195,24 +201,26 @@ if prompt := st.chat_input("Ask about expense ratio, NAV, SIP, riskometer..."):
         "source_url": None
     })
 
-    with st.chat_message("user"):
-        st.markdown(prompt)
-
+    # Get bot response
     with st.chat_message("assistant"):
-        with st.spinner("🔎 Searching official AMC documents..."):
-
-            try:
-                result = handle_chat(
-                    prompt,
-                    context_fund=st.session_state.context_fund
-                )
-
-            except Exception as e:
-                result = {
-                    "answer": f"Sorry, an error occurred: {str(e)}. Please check the AMC website.",
-                    "source_url": "https://www.icicipruamc.com",
-                    "refused": False,
-                }
+        # Check for PII before processing
+        has_pii, _ = contains_pii(prompt)
+        if has_pii:
+            result = {
+                "answer": PII_REJECTION_MESSAGE,
+                "source_url": "",
+                "refused": True,
+            }
+        else:
+            with st.spinner("Thinking..."):
+                try:
+                    result = handle_chat(prompt, context_fund=st.session_state.context_fund)
+                except Exception as e:
+                    result = {
+                        "answer": f"Sorry, an error occurred: {str(e)}. Please try again or check the AMC website.",
+                        "source_url": "https://www.icicipruamc.com",
+                        "refused": False,
+                    }
 
         answer = result.get("answer", "")
         source_url = result.get("source_url", "")
