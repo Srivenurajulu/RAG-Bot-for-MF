@@ -168,7 +168,7 @@ if "context_fund" not in st.session_state:
 
 # ---------------- HEADER ---------------- #
 
-st.title("📊 Mutaul Fund FAQ Assistant")
+st.title("📊 Mutual Fund FAQ Assistant")
 
 st.caption(
     "<p style='text-align: center; color: brown; font-size: 0.8rem;'>"
@@ -255,7 +255,7 @@ with st.sidebar:
     st.markdown("🔗 [INDmoney – Mutual Funds](https://www.indmoney.com/mutual-funds)")
     st.markdown("🔗 [KIM & SID Documents](https://www.icicipruamc.com/media-center/downloads)")
     st.markdown("🔗 [AMFI Investor Corner](https://www.amfiindia.com/investor-corner)")
-
+    st.markdown("🔗 [ICICI Prudential Mutual Fund Fact Sheet](https://digitalfactsheet.icicipruamc.com/fact/)")
     st.markdown("---")
 
     if st.button("🧹 Clear Chat"):
