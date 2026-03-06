@@ -1,127 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Mutual Fund FAQ Assistant</title>
 
-  <style>
+<style>
 
-*{box-sizing:border-box;}
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+/* BODY */
 
 body{
+
 font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,sans-serif;
-margin:0;
+
 min-height:100vh;
+
 display:flex;
-flex-direction:column;
 align-items:center;
 justify-content:center;
-padding:2rem;
 
-/* PREMIUM GOLD → BRONZE → DARK BROWN */
-background: linear-gradient(135deg,
-#f5d27a 0%,
-#e0b45c 25%,
-#b8863b 50%,
-#6b3e1d 75%,
-#3b220f 100%);
+/* GOLD + BROWN GRADIENT */
 
-color:#1a1a1a;
+background: radial-gradient(circle at top,#ffe8a3 0%,#d4a64f 35%,#7a4d0b 100%);
+
+padding:40px;
+
+color:#2b1a00;
+
 }
 
 /* CARD */
 
 .card{
-max-width:480px;
+
+max-width:520px;
+width:100%;
+
+padding:42px;
+
 text-align:center;
-padding:2.6rem;
 
-/* luxury glass effect */
+/* GLASS EFFECT */
 
-background: rgba(255,255,255,0.15);
-backdrop-filter: blur(12px);
+background:rgba(255,255,255,0.18);
+backdrop-filter:blur(16px);
 
-border-radius:18px;
+border-radius:20px;
 
 border:1px solid rgba(255,215,0,0.55);
 
 box-shadow:
-0 15px 45px rgba(0,0,0,0.35),
-0 0 25px rgba(255,215,0,0.25);
+0 20px 60px rgba(90,50,0,0.35),
+inset 0 1px 0 rgba(255,255,255,0.5);
+
 }
 
-/* HEADING */
+/* TITLE */
 
 h1{
-color:#FFD700;
+
 font-size:2rem;
-margin-top:0;
+
+color:#fff4cc;
+
 letter-spacing:1px;
-text-shadow:0 2px 8px rgba(0,0,0,0.4);
+
+margin-bottom:12px;
+
+text-shadow:0 2px 6px rgba(0,0,0,0.25);
+
 }
 
 /* TEXT */
 
-p{
-color:#2b1605;
-line-height:1.6;
-margin:1rem 0;
-font-weight:500;
+.description{
+
+color:#fff7dc;
+
+line-height:1.7;
+
+font-size:15px;
+
+margin-top:10px;
+
 }
 
 /* BUTTON */
 
 .btn{
+
 display:inline-block;
-margin-top:1.3rem;
-padding:0.9rem 2rem;
 
-/* GOLD BUTTON */
+margin-top:26px;
 
-background: linear-gradient(135deg,
-#FFD700,
-#f7c948,
-#b8860b);
+padding:14px 34px;
 
-color:#4a2a00;
-text-decoration:none;
 font-weight:700;
+
 border-radius:12px;
 
-transition:all 0.25s ease;
+text-decoration:none;
 
-box-shadow:
-0 6px 20px rgba(0,0,0,0.35),
-0 0 10px rgba(255,215,0,0.35);
+background:linear-gradient(135deg,#ffd86b,#ffb300);
+
+color:#5c3a00;
+
+box-shadow:0 8px 25px rgba(0,0,0,0.25);
+
+transition:all .25s ease;
+
 }
 
 .btn:hover{
 
-transform:translateY(-3px) scale(1.04);
+transform:translateY(-4px) scale(1.04);
 
-box-shadow:
-0 10px 30px rgba(0,0,0,0.45),
-0 0 18px rgba(255,215,0,0.6);
+box-shadow:0 14px 40px rgba(0,0,0,0.35);
+
 }
 
-/* NOTES */
+/* NOTE */
 
 .note{
-font-size:0.85rem;
-color:#3b220f;
-margin-top:1.5rem;
-}
 
-.url-placeholder{
-font-size:0.75rem;
-color:#4a2a00;
-margin-top:0.5rem;
+margin-top:28px;
+
+font-size:13px;
+
+color:#fff1c2;
+
+opacity:.9;
+
 }
 
 </style>
 
 </head>
+
 <body>
   <div class="card">
     <h1>Mutual Fund FAQ Assistant</h1>
