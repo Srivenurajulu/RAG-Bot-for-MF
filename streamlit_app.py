@@ -33,7 +33,7 @@ import streamlit as st
 from Phase4_Backend_API.chat import handle_chat
 
 st.set_page_config(
-    page_title="MF FAQ Assistant",
+    page_title="Mutaul Fund FAQ Assistant",
     page_icon="📊",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -168,13 +168,12 @@ if "context_fund" not in st.session_state:
 
 # ---------------- HEADER ---------------- #
 
-st.title("📊 ICICI Prudential MF FAQ Assistant")
+st.title("📊 Mutaul Fund FAQ Assistant")
 
 st.caption(
-"Facts-Only Mutual Fund FAQ Assistant • Expense Ratio • NAV • SIP • Riskometer • Benchmark"
+"Factual Answers Only - Mutual Fund FAQ Assistant • Expense Ratio • NAV • SIP • Riskometer • Benchmark"
 )
 
-st.markdown("---")
 
 # ---------------- CHAT HISTORY ---------------- #
 
@@ -232,10 +231,13 @@ if prompt := st.chat_input("Ask about expense ratio, NAV, SIP, riskometer..."):
 
 # ---------------- FOOTER ---------------- #
 
-st.markdown("---")
+
 
 st.caption(
-"⚠️ Do not enter PAN, Aadhaar, account numbers, folio numbers, OTP, email or phone."
+    "<p style='text-align: center; color: white; font-size: 0.8rem;'>"
+    "⚠️ Do not enter PAN, Aadhaar, account numbers, folio number, OTP, email or phone."
+    "</p>", 
+    unsafe_allow_html=True
 )
 
 # ---------------- SIDEBAR ---------------- #
