@@ -44,12 +44,12 @@ st.set_page_config(
 st.markdown("""
 <style>
 
-/* ---------- MAIN APP BACKGROUND ---------- */
+/* ---------- DYNAMIC THEME ADAPTATION ---------- */
 
 .stApp {
-    background: #000000; 
+    /* Uses Streamlit's secondary background color for a subtle look, or default background */
+    background: var(--background-color); 
     font-family: "Segoe UI", system-ui, sans-serif;
-    color: #ffffff;
 }
 
 /* ---------- MAIN CONTAINER ---------- */
@@ -58,10 +58,13 @@ st.markdown("""
     max-width: 900px;
     margin: auto;
     padding: 2rem;
-    background: #0e1117; /* Dark charcoal for the main card */
+    
+    /* Adapts to light/dark mode automatically */
+    background: var(--secondary-background-color); 
+    
     border-radius: 14px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-    border: 1px solid #31333f;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 1px solid var(--border-color);
 }
 
 /* ---------- TITLE ---------- */
@@ -69,7 +72,8 @@ st.markdown("""
 h1 {
     text-align: center;
     font-weight: 700;
-    color: #f0c05a; /* Metallic gold for a premium look */
+    /* Uses a gold tone that works on both white and black */
+    color: #b8963f; 
     letter-spacing: 0.5px;
 }
 
@@ -87,38 +91,36 @@ h1 {
     padding: 14px;
     border-radius: 10px;
     margin-bottom: 10px;
-    border: 1px solid #31333f;
-    color: #ffffff !important;
+    border: 1px solid var(--border-color);
+    color: var(--text-color) !important;
 }
 
 /* USER MESSAGE */
 [data-testid="stChatMessage"]:has(div[data-testid="user-avatar"]) {
-    background: #1e2129;
+    background: var(--background-color);
+    opacity: 0.9;
 }
 
 /* ASSISTANT MESSAGE */
 [data-testid="stChatMessage"]:has(div[data-testid="assistant-avatar"]) {
-    background: #262730;
+    background: var(--secondary-background-color);
 }
 
 /* ---------- INPUT BOX ---------- */
 
-/* Targeting the text area and its container */
 [data-testid="stChatInput"] textarea {
-    background-color: #1e2129 !important;
-    color: #ffffff !important;
-    border: 1px solid #444 !important;
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+    border: 1px solid var(--border-color) !important;
 }
 
 /* ---------- BUTTON ---------- */
 
 .stButton>button {
-    background: #f0c05a;
-    color: #000000;
+    background: #b8963f;
+    color: white;
     border: none;
     border-radius: 8px;
-    padding: 6px 14px;
-    font-weight: 600;
 }
 
 .stButton>button:hover {
@@ -129,24 +131,14 @@ h1 {
 /* ---------- SIDEBAR ---------- */
 
 section[data-testid="stSidebar"] {
-    background: #0e1117;
-    border-right: 1px solid #31333f;
+    background: var(--secondary-background-color);
+    border-right: 1px solid var(--border-color);
 }
 
 section[data-testid="stSidebar"] h1,
 section[data-testid="stSidebar"] h2,
 section[data-testid="stSidebar"] h3 {
-    color: #f0c05a;
-}
-
-section[data-testid="stSidebar"] span, 
-section[data-testid="stSidebar"] p {
-    color: #ffffff;
-}
-
-section[data-testid="stSidebar"] a {
-    color: #f0c05a;
-    font-weight: 500;
+    color: #b8963f;
 }
 
 /* ---------- DIVIDER ---------- */
