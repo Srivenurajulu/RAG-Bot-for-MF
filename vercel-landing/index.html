@@ -1,56 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MF FAQ Assistant</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, #fffef5 0%, #fff8e7 50%, #ffe4e1 100%);
-      color: #1a1a1a;
-      padding: 2rem;
-    }
-    .card {
-      max-width: 480px;
-      text-align: center;
-      padding: 2.5rem;
-      background: rgba(255,255,255,0.9);
-      border-radius: 16px;
-      box-shadow: 0 8px 32px rgba(139,0,0,0.12);
-      border: 1px solid rgba(139,0,0,0.15);
-    }
-    h1 { color: #8B0000; font-size: 1.75rem; margin-top: 0; }
-    p { color: #333; line-height: 1.6; margin: 1rem 0; }
-    .btn {
-      display: inline-block;
-      margin-top: 1.25rem;
-      padding: 0.85rem 1.75rem;
-      background: linear-gradient(135deg, #8B0000 0%, #a52a2a 100%);
-      color: #fff;
-      text-decoration: none;
-      font-weight: 600;
-      border-radius: 8px;
-      transition: transform 0.15s, box-shadow 0.15s;
-    }
-    .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(139,0,0,0.35); }
-    .note { font-size: 0.875rem; color: #666; margin-top: 1.5rem; }
-    .url-placeholder { font-size: 0.8rem; color: #999; margin-top: 0.5rem; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mutual Fund FAQ Assistant</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body{
+font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,sans-serif;
+margin:0;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+padding:2rem;
+
+/* BRIGHT RED → GOLD BACKGROUND */
+background: linear-gradient(135deg,#7a0000 0%,#b30000 40%,#ffcc33 100%);
+color:#1a1a1a;
+}
+
+/* CARD */
+.card{
+max-width:480px;
+text-align:center;
+padding:2.5rem;
+
+/* GOLD GLASS EFFECT */
+background: rgba(255,215,0,0.12);
+backdrop-filter: blur(10px);
+
+border-radius:16px;
+border:1px solid rgba(255,215,0,0.5);
+
+box-shadow:0 12px 40px rgba(120,0,0,0.45);
+}
+
+/* HEADING */
+h1{
+color:#FFD700;
+font-size:1.9rem;
+margin-top:0;
+letter-spacing:1px;
+}
+
+/* TEXT */
+p{
+color:#2b0000;
+line-height:1.6;
+margin:1rem 0;
+}
+
+/* BUTTON */
+.btn{
+display:inline-block;
+margin-top:1.3rem;
+padding:0.9rem 2rem;
+
+background: linear-gradient(135deg,#FFD700,#ff4d4d);
+
+color:#5a0000;
+text-decoration:none;
+font-weight:700;
+border-radius:10px;
+
+transition:all 0.25s ease;
+box-shadow:0 6px 18px rgba(120,0,0,0.35);
+}
+
+.btn:hover{
+transform:translateY(-3px) scale(1.03);
+box-shadow:0 10px 28px rgba(120,0,0,0.55);
+}
+
+/* NOTES */
+.note{
+font-size:0.85rem;
+color:#3b0000;
+margin-top:1.5rem;
+}
+
+.url-placeholder{
+font-size:0.75rem;
+color:#6b0000;
+margin-top:0.5rem;
+}
+
+</style>
 </head>
 <body>
   <div class="card">
-    <h1>MF FAQ Assistant</h1>
-    <p>Facts-only FAQ for ICICI Prudential mutual fund schemes. Ask about expense ratio, SIP, NAV, benchmark, riskometer, and more. No investment advice.</p>
+    <h1>Mutual Fund FAQ Assistant</h1>
+    <p>The Mutual Fund Assistant is available to address factual inquiries concerning ICICI Prudential AMC mutual fund schemes. Specifically, we can provide information related to the expense ratio, exit load, SIP (Systematic Investment Plan) details, ELSS (Equity Linked Savings Scheme) lock-in periods, riskometer assessments, benchmark indices used, and access to relevant statements. Please direct any specific questions related to these areas to the Mutual Fund Assistant for comprehensive assistance.</p>
     <a class="btn" href="https://mrag-bot-for-mf-dczfpkqhj5mahejzbyvj9x.streamlit.app/" id="chat-link">Try the chatbot</a>
-    <p class="url-placeholder">Replace YOUR_STREAMLIT_APP_URL in index.html with your Streamlit app URL after deploy.</p>
     <p class="note">Do not enter PAN, Aadhaar, account numbers, or other personal information.</p>
   </div>
   <script>
