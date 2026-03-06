@@ -58,7 +58,7 @@ max-width:900px;
 margin:auto;
 padding:2rem;
 
-background:white;
+background:black;
 
 border-radius:14px;
 
