@@ -171,7 +171,7 @@ st.title("💰 Mutual Fund FAQ Assistant")
 
 st.caption(
     "<p style='text-align: center; color: red; font-size: 0.8rem;'>"
-    "Factual Answers Only - Mutual Fund FAQ Assistant • Expense Ratio • NAV • SIP • Riskometer • Benchmark"
+   <b>Factual insights on Mutual Fund related terms - Expense Ratio • NAV • SIP • Riskometer • Benchmark</b>
     "</p>", 
     unsafe_allow_html=True
 )
