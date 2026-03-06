@@ -201,6 +201,10 @@ if prompt := st.chat_input("Ask about expense ratio, NAV, SIP, riskometer..."):
         "source_url": None
     })
 
+    # Display user message immediately
+    with st.chat_message("user"):
+        st.markdown(prompt)
+
     # Get bot response
     with st.chat_message("assistant"):
         # Check for PII before processing
