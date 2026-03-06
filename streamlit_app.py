@@ -47,117 +47,119 @@ st.markdown("""
 /* ---------- MAIN APP BACKGROUND ---------- */
 
 .stApp {
-    /* Solid black background */
     background: #000000; 
-    
-    /* Optional: Use a dark gradient for depth */
-    /* background: linear-gradient(180deg, #121212 0%, #000000 100%); */
-    
     font-family: "Segoe UI", system-ui, sans-serif;
+    color: #ffffff;
 }
 
 /* ---------- MAIN CONTAINER ---------- */
 
-.block-container{
-max-width:900px;
-margin:auto;
-padding:2rem;
-
-background:black;
-
-border-radius:14px;
-
-box-shadow:
-0 6px 18px rgba(0,0,0,0.08);
-
-border:1px solid #e6dcc8;
+.block-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    background: #0e1117; /* Dark charcoal for the main card */
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    border: 1px solid #31333f;
 }
 
 /* ---------- TITLE ---------- */
 
-h1{
-text-align:center;
-font-weight:700;
-color:#6b4c1e;
-letter-spacing:0.5px;
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #f0c05a; /* Metallic gold for a premium look */
+    letter-spacing: 0.5px;
 }
 
 /* ---------- CAPTION ---------- */
 
-.stCaption{
-text-align:center;
-color:#6f6f6f;
-font-size:0.9rem;
+.stCaption {
+    text-align: center;
+    color: #a0a0a0;
+    font-size: 0.9rem;
 }
 
 /* ---------- CHAT MESSAGE STYLE ---------- */
 
-[data-testid="stChatMessage"]{
-padding:14px;
-border-radius:10px;
-margin-bottom:10px;
-border:1px solid #ece6db;
+[data-testid="stChatMessage"] {
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #31333f;
+    color: #ffffff !important;
 }
 
 /* USER MESSAGE */
-
-[data-testid="stChatMessage"]:has(div[data-testid="user-avatar"]){
-background:#faf8f4;
+[data-testid="stChatMessage"]:has(div[data-testid="user-avatar"]) {
+    background: #1e2129;
 }
 
 /* ASSISTANT MESSAGE */
-
-[data-testid="stChatMessage"]:has(div[data-testid="assistant-avatar"]){
-background:#f3efe7;
+[data-testid="stChatMessage"]:has(div[data-testid="assistant-avatar"]) {
+    background: #262730;
 }
 
 /* ---------- INPUT BOX ---------- */
 
-textarea{
-border-radius:8px !important;
-border:1px solid #cbbf9e !important;
-background:white !important;
+/* Targeting the text area and its container */
+[data-testid="stChatInput"] textarea {
+    background-color: #1e2129 !important;
+    color: #ffffff !important;
+    border: 1px solid #444 !important;
 }
 
 /* ---------- BUTTON ---------- */
 
-.stButton>button{
-background:#b8963f;
-color:white;
-border:none;
-border-radius:8px;
-padding:6px 14px;
-font-weight:600;
+.stButton>button {
+    background: #f0c05a;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-weight: 600;
 }
 
-.stButton>button:hover{
-background:#a48332;
+.stButton>button:hover {
+    background: #d4a746;
+    color: #000000;
 }
 
 /* ---------- SIDEBAR ---------- */
 
-section[data-testid="stSidebar"]{
-background:#faf7f1;
-border-right:1px solid #e6dcc8;
+section[data-testid="stSidebar"] {
+    background: #0e1117;
+    border-right: 1px solid #31333f;
 }
 
 section[data-testid="stSidebar"] h1,
 section[data-testid="stSidebar"] h2,
-section[data-testid="stSidebar"] h3{
-color:#6b4c1e;
+section[data-testid="stSidebar"] h3 {
+    color: #f0c05a;
 }
 
-section[data-testid="stSidebar"] a{
-color:#7a5b2e;
-font-weight:500;
+section[data-testid="stSidebar"] span, 
+section[data-testid="stSidebar"] p {
+    color: #ffffff;
+}
+
+section[data-testid="stSidebar"] a {
+    color: #f0c05a;
+    font-weight: 500;
 }
 
 /* ---------- DIVIDER ---------- */
 
-hr{
-border:none;
-border-top:1px solid #e6dcc8;
-margin:1.2rem 0;
+hr {
+    border: none;
+    border-top: 1px solid #31333f;
+    margin: 1.2rem 0;
+}
+
+/* Fix for links in dark mode */
+a {
+    color: #f0c05a !important;
 }
 
 </style>
@@ -176,7 +178,7 @@ if "context_fund" not in st.session_state:
 st.title("📊 Mutual Fund FAQ Assistant")
 
 st.caption(
-    "<p style='text-align: center; color: brown; font-size: 0.8rem;'>"
+    "<p style='text-align: center; color: red; font-size: 0.8rem;'>"
     "Factual Answers Only - Mutual Fund FAQ Assistant • Expense Ratio • NAV • SIP • Riskometer • Benchmark"
     "</p>", 
     unsafe_allow_html=True
@@ -242,7 +244,7 @@ if prompt := st.chat_input("Ask about expense ratio, NAV, SIP, riskometer..."):
 
 
 st.caption(
-    "<p style='text-align: center; color: brown; font-size: 0.8rem;'>"
+    "<p style='text-align: center; color: red; font-size: 0.8rem;'>"
     "⚠️ Do not enter PAN, Aadhaar, account numbers, folio number, OTP, email or phone."
     "</p>", 
     unsafe_allow_html=True
