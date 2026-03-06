@@ -1,150 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Mutual Fund FAQ Assistant</title>
-
-<style>
-
-*{
-box-sizing:border-box;
-margin:0;
-padding:0;
-}
-
-/* BODY */
-
-body{
-
-font-family:"Times New Roman", Times, serif;
-
-min-height:100vh;
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-/* GOLD + BROWN GRADIENT */
-
-background: radial-gradient(circle at top,#ffe8a3 0%,#d4a64f 35%,#7a4d0b 100%);
-
-padding:40px;
-
-color:#2b1a00;
-
-}
-
-/* CARD */
-
-.card{
-
-max-width:520px;
-width:100%;
-
-padding:42px;
-
-text-align:center;
-
-/* GLASS EFFECT */
-
-background:rgba(255,255,255,0.18);
-backdrop-filter:blur(16px);
-
-border-radius:20px;
-
-border:1px solid rgba(255,215,0,0.55);
-
-box-shadow:
-0 20px 60px rgba(90,50,0,0.35),
-inset 0 1px 0 rgba(255,255,255,0.5);
-
-}
-
-/* TITLE */
-
-h1{
-
-font-size:2rem;
-
-color:#fff4cc;
-
-letter-spacing:1px;
-
-margin-bottom:12px;
-
-text-shadow:0 2px 6px rgba(0,0,0,0.25);
-
-}
-
-/* TEXT */
-
-.description{
-
-color:#fff7dc;
-
-line-height:1.7;
-
-font-size:15px;
-
-margin-top:10px;
-
-}
-
-/* BUTTON */
-
-.btn{
-
-display:inline-block;
-
-margin-top:26px;
-
-padding:14px 34px;
-
-font-weight:700;
-
-border-radius:12px;
-
-text-decoration:none;
-
-background:linear-gradient(135deg,#ffd86b,#ffb300);
-
-color:#5c3a00;
-
-box-shadow:0 8px 25px rgba(0,0,0,0.25);
-
-transition:all .25s ease;
-
-}
-
-.btn:hover{
-
-transform:translateY(-4px) scale(1.04);
-
-box-shadow:0 14px 40px rgba(0,0,0,0.35);
-
-}
-
-/* NOTE */
-
-.note{
-
-margin-top:28px;
-
-font-size:13px;
-
-color:#fff1c2;
-
-opacity:.9;
-
-}
-
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutual Fund FAQ Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* Using a soft Inter font for readability */
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            /* Deep, formal black/charcoal gradient */
+            background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%);
+            padding: 40px;
+            color: #e0e0e0;
+        }
+
+        /* CARD */
+        .card {
+            max-width: 500px;
+            width: 100%;
+            padding: 48px;
+            text-align: center;
+            
+            /* Sophisticated dark glass effect */
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            
+            border-radius: 24px;
+            /* Subtle border to define the card against the black background */
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+        }
+
+        /* TITLE */
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.5px;
+            margin-bottom: 16px;
+        }
+
+        /* TEXT */
+        .description {
+            color: #a0a0a0;
+            line-height: 1.6;
+            font-size: 16px;
+            font-weight: 300;
+            margin-top: 10px;
+        }
+
+        /* BUTTON */
+        .btn {
+            display: inline-block;
+            margin-top: 32px;
+            padding: 14px 40px;
+            font-weight: 600;
+            font-size: 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            
+            /* Clean white-on-dark look or subtle accent */
+            background: #ffffff;
+            color: #000000;
+            
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid transparent;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            background: transparent;
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.05);
+        }
+
+        /* NOTE */
+        .note {
+            margin-top: 32px;
+            font-size: 13px;
+            color: #666666;
+            font-weight: 400;
+        }
+    </style>
 </head>
-
+  
 <body>
   <div class="card">
     <h1>Mutual Fund FAQ Assistant</h1>
