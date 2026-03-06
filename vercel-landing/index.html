@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mutual Fund FAQ Assistant</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
             box-sizing: border-box;
@@ -13,107 +12,137 @@
             padding: 0;
         }
 
+        /* BODY - Professional Dark Theme */
         body {
-            /* Using a soft Inter font for readability */
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            /* System fonts fallback for maximum compatibility */
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             
-            /* Deep, formal black/charcoal gradient */
-            background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%);
-            padding: 40px;
-            color: #e0e0e0;
+            /* Professional Dark Background with a soft, warm radial glow */
+            background-color: #0d0d0d;
+            background-image: radial-gradient(circle at center, #1f1f2a 0%, #0d0d0d 100%);
+            
+            padding: 20px;
+            color: rgba(255, 255, 255, 0.85); /* Slightly off-white for better readability */
+            -webkit-font-smoothing: antialiased; /* Smoother rendering on macOS */
         }
 
-        /* CARD */
+        /* CARD - Dark Glassmorphism */
         .card {
-            max-width: 500px;
+            max-width: 540px;
             width: 100%;
-            padding: 48px;
+            padding: 56px 48px 48px 48px; /* Increased top padding for balance */
             text-align: center;
             
-            /* Sophisticated dark glass effect */
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            /* Deep dark glass effect */
+            background: rgba(30, 30, 38, 0.6);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
             
-            border-radius: 24px;
-            /* Subtle border to define the card against the black background */
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 28px;
             
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+            /* Very subtle, cool-toned border */
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            
+            /* Soft, deep shadow for depth */
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
         }
 
         /* TITLE */
         h1 {
-            font-size: 1.8rem;
+            font-size: 32px; /* Large and professional */
             font-weight: 700;
             color: #ffffff;
-            letter-spacing: -0.5px;
-            margin-bottom: 16px;
+            letter-spacing: -0.5px; /* Slight tracking for a premium feel */
+            margin-bottom: 24px;
         }
 
-        /* TEXT */
+        /* DESCRIPTION TEXT */
         .description {
-            color: #a0a0a0;
-            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.7); /* Muted gray-white */
+            line-height: 1.6; /* Improved readability for long text */
             font-size: 16px;
-            font-weight: 300;
-            margin-top: 10px;
+            font-weight: 400;
+            margin-bottom: 40px; /* Space before the button */
         }
 
-        /* BUTTON */
+        /* BUTTON - Premium Interactive Style */
+        .btn-container {
+            margin-bottom: 36px;
+        }
+
         .btn {
             display: inline-block;
-            margin-top: 32px;
-            padding: 14px 40px;
+            padding: 16px 48px;
             font-weight: 600;
-            font-size: 15px;
-            border-radius: 8px;
+            font-size: 16px;
+            border-radius: 12px;
             text-decoration: none;
+            cursor: pointer;
             
-            /* Clean white-on-dark look or subtle accent */
-            background: #ffffff;
+            /* Transition for all interactive properties */
+            transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+            
+            /* Initial State: White button */
+            background-color: #ffffff;
             color: #000000;
+            border: 2px solid #ffffff;
             
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            border: 1px solid transparent;
+            box-shadow: 0 8px 24px rgba(255, 255, 255, 0.1);
         }
 
+        /* Button Hover State - Sleek "Invert" Effect */
         .btn:hover {
-            transform: translateY(-2px);
-            background: transparent;
+            transform: translateY(-3px);
+            background-color: transparent;
             color: #ffffff;
-            border: 1px solid rgba(255, 255, 255, 0.5);
-            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.8);
+            box-shadow: 0 12px 30px rgba(255, 255, 255, 0.15);
+        }
+        
+        /* Button Active (Click) State */
+        .btn:active {
+            transform: translateY(1px);
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
         }
 
-        /* NOTE */
+        /* NOTE / DISCLAIMER */
         .note {
-            margin-top: 32px;
             font-size: 13px;
-            color: #666666;
+            line-height: 1.4;
+            color: rgba(255, 255, 255, 0.4); /* Faded out, yet readable */
             font-weight: 400;
+            max-width: 90%; /* Keeps it from stretching too wide */
+            margin: 0 auto;
         }
     </style>
 </head>
-  
 <body>
-  <div class="card">
-    <h1>Mutual Fund FAQ Assistant</h1>
-    <p>The Mutual Fund Assistant is available to address factual inquiries concerning ICICI Prudential AMC mutual fund schemes. 
-      Specifically, we can provide information related to the expense ratio, exit load, 
-      SIP (Systematic Investment Plan) details, ELSS (Equity Linked Savings Scheme) lock-in periods, riskometer assessments, benchmark indices used, and access to relevant statements. 
-      Please direct any specific questions related to these areas to the Mutual Fund Assistant for comprehensive assistance.</p>
-    <a class="btn" href="https://mrag-bot-for-mf-dczfpkqhj5mahejzbyvj9x.streamlit.app/" id="chat-link">Try the chatbot</a>
-    <p class="note">Do not enter PAN, Aadhaar, account numbers, or other personal information.</p>
-  </div>
-  <script>
+
+    <div class="card">
+        <h1>Mutual Fund FAQ Assistant</h1>
+        
+        <p class="description">
+            The Mutual Fund Assistant is available to address factual inquiries concerning ICICI Prudential AMC mutual fund schemes. Specifically, we can provide information related to the expense ratio, exit load, SIP (Systematic Investment Plan) details, ELSS (Equity Linked Savings Scheme) lock-in periods, riskometer assessments, benchmark indices used, and access to relevant statements. Please direct any specific questions related to these areas to the Mutual Fund Assistant for comprehensive assistance.
+        </p>
+        
+        <div class="btn-container">
+            <a href="#" class="btn">Try the chatbot</a>
+        </div>
+        
+        <p class="note">
+            Do not enter PAN, Aadhaar, account numbers, or other personal information.
+        </p>
+    </div>
+
+</body>
+      <script>
     // Optional: override link from env (Vercel injects env at build time if you use a build step)
     var streamlitUrl = typeof STREAMLIT_APP_URL !== 'undefined' ? STREAMLIT_APP_URL : 'https://mrag-bot-for-mf-dczfpkqhj5mahejzbyvj9x.streamlit.app/';
     document.getElementById('chat-link').href = streamlitUrl;
   </script>
-</body>
 </html>
+
