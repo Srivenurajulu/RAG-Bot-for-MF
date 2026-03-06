@@ -44,96 +44,115 @@ st.set_page_config(
 st.markdown("""
 <style>
 
-/* Animated red-gold gradient background */
+/* ---------- MAIN APP BACKGROUND ---------- */
+
 .stApp{
-background: linear-gradient(-45deg,#6b0000,#b30000,#ffcc33,#ffd700);
-background-size:400% 400%;
-animation:gradientMove 12s ease infinite;
+background: linear-gradient(180deg,#f8f6f2 0%, #efe8da 100%);
+font-family: "Segoe UI", system-ui, sans-serif;
 }
 
-@keyframes gradientMove{
-0%{background-position:0% 50%;}
-50%{background-position:100% 50%;}
-100%{background-position:0% 50%;}
-}
+/* ---------- MAIN CONTAINER ---------- */
 
-/* Glass container */
 .block-container{
-background: rgba(0,0,0,0.35);
+max-width:900px;
+margin:auto;
 padding:2rem;
-border-radius:20px;
-backdrop-filter: blur(10px);
-border:1px solid rgba(255,215,0,0.4);
-box-shadow:0 10px 40px rgba(0,0,0,0.6);
-}
 
-/* Title */
-h1{
-color:#FFD700 !important;
-text-align:center;
-font-weight:800;
-letter-spacing:1px;
-}
+background:white;
 
-/* Caption */
-.stCaption{
-color:#fff4cc !important;
-text-align:center;
-}
-
-/* Chat bubbles */
-[data-testid="stChatMessage"]{
 border-radius:14px;
-padding:14px;
-margin-bottom:10px;
-border:1px solid rgba(255,215,0,0.4);
+
+box-shadow:
+0 6px 18px rgba(0,0,0,0.08);
+
+border:1px solid #e6dcc8;
 }
 
-/* Assistant message */
-[data-testid="stChatMessage"]:has(div[data-testid="assistant-avatar"]){
-background:rgba(255,215,0,0.15);
-}
+/* ---------- TITLE ---------- */
 
-/* User message */
-[data-testid="stChatMessage"]:has(div[data-testid="user-avatar"]){
-background:rgba(255,0,0,0.25);
-}
-
-/* Chat input */
-textarea{
-border-radius:10px !important;
-border:2px solid #FFD700 !important;
-background:rgba(0,0,0,0.4) !important;
-color:white !important;
-}
-
-/* Buttons */
-.stButton>button{
-background:linear-gradient(135deg,#FFD700,#ff4d4d);
-color:#5a0000;
+h1{
+text-align:center;
 font-weight:700;
+color:#6b4c1e;
+letter-spacing:0.5px;
+}
+
+/* ---------- CAPTION ---------- */
+
+.stCaption{
+text-align:center;
+color:#6f6f6f;
+font-size:0.9rem;
+}
+
+/* ---------- CHAT MESSAGE STYLE ---------- */
+
+[data-testid="stChatMessage"]{
+padding:14px;
 border-radius:10px;
-border:none;
+margin-bottom:10px;
+border:1px solid #ece6db;
 }
 
-.stButton>button:hover{
-transform:scale(1.05);
-box-shadow:0 0 12px gold;
+/* USER MESSAGE */
+
+[data-testid="stChatMessage"]:has(div[data-testid="user-avatar"]){
+background:#faf8f4;
 }
 
-/* Sidebar */
-section[data-testid="stSidebar"]{
-background:linear-gradient(180deg,#7a0000,#b30000);
+/* ASSISTANT MESSAGE */
+
+[data-testid="stChatMessage"]:has(div[data-testid="assistant-avatar"]){
+background:#f3efe7;
+}
+
+/* ---------- INPUT BOX ---------- */
+
+textarea{
+border-radius:8px !important;
+border:1px solid #cbbf9e !important;
+background:white !important;
+}
+
+/* ---------- BUTTON ---------- */
+
+.stButton>button{
+background:#b8963f;
 color:white;
-}
-
-section[data-testid="stSidebar"] a{
-color:#FFD700;
+border:none;
+border-radius:8px;
+padding:6px 14px;
 font-weight:600;
 }
 
+.stButton>button:hover{
+background:#a48332;
+}
+
+/* ---------- SIDEBAR ---------- */
+
+section[data-testid="stSidebar"]{
+background:#faf7f1;
+border-right:1px solid #e6dcc8;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3{
+color:#6b4c1e;
+}
+
+section[data-testid="stSidebar"] a{
+color:#7a5b2e;
+font-weight:500;
+}
+
+/* ---------- DIVIDER ---------- */
+
 hr{
-border:1px solid rgba(255,215,0,0.5);
+border:none;
+border-top:1px solid #e6dcc8;
+margin:1.2rem 0;
 }
 
 </style>
