@@ -167,7 +167,7 @@ if "context_fund" not in st.session_state:
 
 # ---------------- HEADER ---------------- #
 
-st.title("📊 Mutual Fund FAQ Assistant")
+st.title("💰 Mutual Fund FAQ Assistant")
 
 st.caption(
     "<p style='text-align: center; color: red; font-size: 0.8rem;'>"
