@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore other generated data by default, but keep the Chroma index needed at runtime
+data/*
+!data/chroma/
+!data/chroma/**
+.env
+.env.local

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MF FAQ Assistant — ICICI Prudential Schemes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="top-nav" aria-label="Main navigation">
+    <a href="#" id="nav-home" class="nav-btn nav-home" aria-current="page">Home</a>
+    <a href="#" id="nav-resources" class="nav-btn nav-resources">Resources</a>
+  </nav>
+  <div id="disclaimer-banner" class="disclaimer-banner" role="alert" aria-live="polite">
+    <div class="disclaimer-content">
+      <p class="disclaimer-text">This service provides <strong>factual information only</strong> and does not constitute investment advice. Mutual fund investments are subject to market risks. For any investment decision, please consult a SEBI-registered investment adviser or refer to the scheme’s offer document (KIM/SID).</p>
+      <button type="button" id="disclaimer-dismiss" class="disclaimer-dismiss" aria-label="Acknowledge disclaimer">I understand</button>
+    </div>
+  </div>
+  <div id="page-chat" class="app page-chat">
+    <header class="header">
+      <h1>Mutual Fund Assistant</h1>
+      <p class="welcome intro-text">The Mutual Fund Assistant is available to address factual inquiries concerning ICICI Prudential AMC mutual fund schemes. Specifically, we can provide information related to the expense ratio, exit load, SIP (Systematic Investment Plan) details, ELSS (Equity Linked Savings Scheme) lock-in periods, riskometer assessments, benchmark indices used, and access to relevant statements. Please direct any specific questions related to these areas to the Mutual Fund Assistant for comprehensive assistance.</p>
+    </header>
+
+    <section class="examples">
+      <p class="examples-label">Try a question:</p>
+      <button type="button" class="example-btn" data-query="What is the expense ratio of ICICI Prudential Large Cap Fund?">What is the expense ratio of ICICI Prudential Large Cap Fund?</button>
+      <button type="button" class="example-btn" data-query="What is the ELSS lock-in period for ICICI Prudential ELSS Tax Saver Fund?">What is the ELSS lock-in period for ICICI Prudential ELSS Tax Saver Fund?</button>
+      <button type="button" class="example-btn" data-query="How can I download my capital gains statement?">How can I download my capital gains statement?</button>
+    </section>
+
+    <section class="chat-container" id="chat-container">
+      <div class="chat-messages" id="chat-messages" aria-live="polite">
+        <div class="msg msg-bot" data-role="bot">
+          <span class="msg-avatar" aria-hidden="true">MF</span>
+          <div class="msg-bubble">
+            <span class="welcome-greeting">Hello Investor !!</span>
+            <span class="welcome-sub">Ask a question below or pick one of the suggestions above to get started.</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat-input-wrap">
+        <div class="input-row">
+          <input type="text" id="query-input" placeholder="Type your question..." maxlength="2000" autocomplete="off" />
+          <button type="button" id="send-btn" aria-label="Send">Send</button>
+          <button type="button" id="stop-btn" class="stop-btn hidden" aria-label="Stop">Stop</button>
+        </div>
+        <p class="input-hint">Do not enter PAN, Aadhaar, account numbers, folio, CIN, OTP, email or phone.</p>
+      </div>
+    </section>
+  </div>
+  <div id="page-resources" class="app page-resources hidden">
+    <header class="header">
+      <h1>Source articles &amp; documents</h1>
+      <p class="welcome intro-text">Links to scheme pages, factsheets, KIM and SID from the project. Click a link to open it in a new tab.</p>
+    </header>
+    <section class="resources-list-wrap">
+      <p id="resources-loading" class="resources-loading">Loading sources…</p>
+      <ul id="resources-list" class="resources-list hidden" aria-label="Source links"></ul>
+      <p id="resources-error" class="resources-error hidden"></p>
+    </section>
+    <section id="resources-funds-by-type-wrap" class="resources-funds-by-type-wrap hidden" aria-label="Supported funds by type">
+      <h2 class="resources-funds-heading">Supported funds by type</h2>
+      <div id="resources-funds-by-type-list"></div>
+    </section>
+  </div>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+#
+# Streamlit Cloud default dependency file.
+# This project can also be run locally with the per-phase requirements, but Streamlit expects
+# a root-level requirements.txt by default.
+#
+# If you deploy FastAPI elsewhere, you can still keep this file; it's mainly for Streamlit.
+#
+
+streamlit>=1.28.0
+google-generativeai>=0.8.0
+chromadb>=0.4.0
+python-dotenv>=1.0.0
+certifi
+
+# Phase 4 imports use pydantic types
+pydantic>=2.0.0
+
+# Used by local tests and some scripts
+requests>=2.28.0
+

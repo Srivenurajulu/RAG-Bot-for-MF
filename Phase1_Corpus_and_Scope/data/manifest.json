@@ -1,0 +1,212 @@
+{
+  "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20Large%20Cap%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_large_cap_fund_factsheet_14903485.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Large Cap Fund",
+    "page_type": "factsheet",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Key%20Information%20Memorandum(KIM)/ICICI%20Prudential%20Large%20Cap%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_large_cap_fund_kim_61734297.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Large Cap Fund",
+    "page_type": "kim",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Scheme%20Information%20Document(SID)/ICICI%20Prudential%20Large%20Cap%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_large_cap_fund_sid_37471847.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Large Cap Fund",
+    "page_type": "sid",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20Midcap%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_midcap_fund_factsheet_43270251.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential MidCap Fund",
+    "page_type": "factsheet",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Key%20Information%20Memorandum(KIM)/ICICI%20Prudential%20MidCap%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_midcap_fund_kim_22502262.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential MidCap Fund",
+    "page_type": "kim",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Scheme%20Information%20Document(SID)/ICICI%20Prudential%20Midcap%20Fund%20New.pdf": {
+    "file_path": "data/raw/icici_prudential_midcap_fund_sid_35832417.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential MidCap Fund",
+    "page_type": "sid",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20ELSS%20Tax%20Saver%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_elss_tax_saver_fund_factsheet_4515113.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential ELSS Tax Saver Fund",
+    "page_type": "factsheet",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Key%20Information%20Memorandum(KIM)/ICICI%20Prudential%20ELSS%20Tax%20Saver%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_elss_tax_saver_fund_kim_99877107.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential ELSS Tax Saver Fund",
+    "page_type": "kim",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Scheme%20Information%20Document(SID)/ICICI%20Prudential%20ELSS%20Tax%20Saver%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_elss_tax_saver_fund_sid_7720533.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential ELSS Tax Saver Fund",
+    "page_type": "sid",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/2.%20Hybrid%20Schemes/ICICI%20Prudential%20Multi-Asset%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_multi_asset_fund_factsheet_98260414.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Multi Asset Fund",
+    "page_type": "factsheet",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Key%20Information%20Memorandum(KIM)/ICICI%20Prudential%20Multi-Asset%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_multi_asset_fund_kim_59346897.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Multi Asset Fund",
+    "page_type": "kim",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Scheme%20Information%20Document(SID)/ICICI%20Prudential%20Multi-Asset%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_multi_asset_fund_sid_74407636.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Multi Asset Fund",
+    "page_type": "sid",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20Smallcap%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_smallcap_fund_factsheet_38161442.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Smallcap Fund",
+    "page_type": "factsheet",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Key%20Information%20Memorandum(KIM)/ICICI%20Prudential%20Smallcap%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_smallcap_fund_kim_43513148.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Smallcap Fund",
+    "page_type": "kim",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Scheme%20Information%20Document(SID)/ICICI%20Prudential%20Smallcap%20Fund%20New.pdf": {
+    "file_path": "data/raw/icici_prudential_smallcap_fund_sid_44641271.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Smallcap Fund",
+    "page_type": "sid",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/2.%20Hybrid%20Schemes/ICICI%20Prudential%20Balanced%20Advantage%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_balanced_advantage_fund_factsheet_33575395.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Balanced Advantage Fund",
+    "page_type": "factsheet",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Key%20Information%20Memorandum(KIM)/ICICI%20Prudential%20Balanced%20Advantage%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_balanced_advantage_fund_kim_75757701.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Balanced Advantage Fund",
+    "page_type": "kim",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Scheme%20Information%20Document(SID)/ICICI%20Prudential%20Balanced%20Advantage%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_balanced_advantage_fund_sid_35810577.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Balanced Advantage Fund",
+    "page_type": "sid",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20Energy%20Opportunities%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_energy_opportunities_fu_factsheet_53296773.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Energy Opportunities Fund",
+    "page_type": "factsheet",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Key%20Information%20Memorandum(KIM)/ICICI%20Prudential%20Energy%20Opportunities%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_energy_opportunities_fu_kim_41497743.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Energy Opportunities Fund",
+    "page_type": "kim",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Scheme-Summary-Documents/ICICI%20Prudential%20Energy%20Opportunities%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_energy_opportunities_fu_sid_3408891.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Energy Opportunities Fund",
+    "page_type": "sid",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20Multicap%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_multicap_fund_factsheet_96320921.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Multicap Fund",
+    "page_type": "factsheet",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Key%20Information%20Memorandum(KIM)/ICICI%20Prudential%20Multicap%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_multicap_fund_kim_81739141.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Multicap Fund",
+    "page_type": "kim",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Scheme%20Information%20Document(SID)/ICICI%20Prudential%20Multicap%20Fund%20New.pdf": {
+    "file_path": "data/raw/icici_prudential_multicap_fund_sid_44229237.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential Multicap Fund",
+    "page_type": "sid",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20US%20Bluechip%20Equity%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_us_bluechip_equity_fund_factsheet_78358227.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential US Bluechip Equity Fund",
+    "page_type": "factsheet",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Scheme%20Information%20Document(SID)/ICICI%20Prudential%20US%20Bluechip%20Equity%20Fund%20New.pdf": {
+    "file_path": "data/raw/icici_prudential_us_bluechip_equity_fund_sid_96453466.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential US Bluechip Equity Fund",
+    "page_type": "sid",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Key%20Information%20Memorandum(KIM)/ICICI%20Prudential%20US%20Bluechip%20Equity%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_us_bluechip_equity_fund_kim_81104985.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential US Bluechip Equity Fund",
+    "page_type": "kim",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Passive%20Schemes/Index%20Schemes/ICICI%20Prudential%20NASDAQ%20100%20Index%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_nasdaq_100_index_fund_factsheet_79431157.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential NASDAQ 100 Index Fund",
+    "page_type": "factsheet",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Key%20Information%20Memorandum(KIM)/ICICI%20Prudential%20NASDAQ%20100%20Index%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_nasdaq_100_index_fund_kim_84644892.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential NASDAQ 100 Index Fund",
+    "page_type": "kim",
+    "amc": "ICICI Prudential AMC"
+  },
+  "https://www.icicipruamc.com/blob/downloads/Scheme%20Information%20Document(SID)/ICICI%20Prudential%20NASDAQ%20100%20Index%20Fund.pdf": {
+    "file_path": "data/raw/icici_prudential_nasdaq_100_index_fund_sid_3876687.txt",
+    "scrape_date": "2026-03-04",
+    "scheme_name": "ICICI Prudential NASDAQ 100 Index Fund",
+    "page_type": "sid",
+    "amc": "ICICI Prudential AMC"
+  }
+}

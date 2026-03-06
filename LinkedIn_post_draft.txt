@@ -1,0 +1,41 @@
+LINKEDIN POST — DRAFT (RAG Bot for MF / FAQ Assistant)
+======================================================
+Use or adapt the text below. Add line breaks where you like for readability.
+
+---
+
+I built a facts-only FAQ assistant for ICICI Prudential mutual fund schemes — no investment advice, just answers from official sources.
+
+What it does:
+• Answers questions on expense ratio, exit load, minimum SIP, ELSS lock-in, riskometer, benchmark, NAV, and how to download statements
+• Refuses advice-style questions and points users to investor education resources
+• Rejects queries containing personal information (PAN, Aadhaar, etc.)
+• Keeps NAV up to date via a daily scheduler pulling from MFapi.in
+
+Under the hood:
+• RAG pipeline: scraped AMC and distributor pages → chunked, embedded with Gemini, stored in ChromaDB
+• Hybrid retrieval (vector + keyword, RRF, re-rank) for better relevance
+• Fast path: structured data (funds.json) for one-fund factual questions
+• Backend: FastAPI; frontend: minimal chat UI with disclaimer and resources page
+
+Scope: 10 schemes (Large Cap, MidCap, ELSS Tax Saver, Multi Asset, Smallcap, Balanced Advantage, Energy Opportunities, Multicap, US Bluechip Equity, NASDAQ 100 Index).
+
+A focused use case for RAG + LLM in a regulated space: factual answers with citations, clear boundaries, and no PII.
+
+#RAG #LLM #MutualFunds #Python #FastAPI #Gemini #ChromaDB #FinTech #SideProject
+
+---
+
+SHORTER VERSION (if you prefer a concise post)
+----------------------------------------------
+
+Built a RAG-based FAQ assistant for ICICI Prudential mutual fund schemes — factual answers only, with citations from official sources. Uses Gemini for embeddings and generation, ChromaDB for retrieval, and FastAPI on the backend. Handles expense ratio, SIP, ELSS lock-in, NAV, and more across 10 schemes; refuses advice and blocks PII. A small but complete RAG + LLM project in the mutual fund space.
+
+#RAG #LLM #MutualFunds #Python #FastAPI #Gemini #FinTech
+
+---
+
+Notes:
+• Replace "I built" with "We built" or "I contributed to" if it was a team effort.
+• Add a link to your repo or demo in the post or first comment.
+• You can attach a screenshot of the chat UI or architecture diagram if you have one.

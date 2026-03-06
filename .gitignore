@@ -1,0 +1,19 @@
+.DS_Store
+
+# Secrets (never commit)
+.env
+.env.local
+
+# Python virtualenv
+.venv/
+venv/
+
+# Caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+
+# Logs
+*.log
+

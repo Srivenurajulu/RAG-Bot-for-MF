@@ -1,0 +1,18 @@
+# Combined requirements for Streamlit Cloud deploy (streamlit_app.py)
+# Install: pip install -r requirements-streamlit.txt
+# Use this file as "requirements.txt" in Streamlit Cloud if you deploy from repo root.
+
+streamlit>=1.28.0
+google-generativeai>=0.8.0
+chromadb>=0.4.0
+python-dotenv>=1.0.0
+certifi
+
+# Phase 4 deps (used by chat/fast_lookup imports)
+pydantic>=2.0.0
+
+# Optional: only if you run Phase 1 scraper or NAV fetch in the same environment
+# playwright>=1.40.0
+# pypdf>=4.0.0
+# requests>=2.28.0
+# apscheduler>=3.10.0

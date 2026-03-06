@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore large/raw scrape outputs, but keep structured outputs needed at runtime
+data/raw/
+
+# Keep these committed for deploy/runtime
+!data/funds.json
+!data/manifest.json

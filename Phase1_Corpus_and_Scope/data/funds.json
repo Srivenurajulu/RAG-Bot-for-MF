@@ -1,0 +1,910 @@
+[
+  {
+    "fund_name": "ICICI Prudential Balanced Advantage Fund",
+    "source_url": "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/2.%20Hybrid%20Schemes/ICICI%20Prudential%20Balanced%20Advantage%20Fund.pdf",
+    "scrape_date": "2026-03-04",
+    "expense_ratio": {
+      "value": 0.86,
+      "unit": "%",
+      "display": "0.86% p.a."
+    },
+    "exit_load": {
+      "value": 0,
+      "unit": "%",
+      "period": null,
+      "display": "NIL (conditions may apply)"
+    },
+    "minimum_sip": {
+      "value": 250,
+      "unit": "Rs",
+      "display": "Rs. 250"
+    },
+    "lock_in": null,
+    "rating": null,
+    "riskometer": {
+      "value": "Very High",
+      "display": "Very High"
+    },
+    "benchmark": {
+      "value": "CRISIL Hybrid 50+50 - Moderate Index",
+      "display": "CRISIL Hybrid 50+50 - Moderate Index"
+    },
+    "statement_download": {
+      "available": true,
+      "instructions": [
+        "Statements can be downloaded from ICICI Prudential AMC website or registrar portal."
+      ],
+      "display": "Available - Check ICICI Prudential AMC website or registrar portal"
+    },
+    "fund_managers": {
+      "value": [
+        "Sri Sharma",
+        "Rajat Chandak",
+        "Ihab Dalwai",
+        "Manish Banthia",
+        "Akhil Kakkar"
+      ],
+      "display": "Sri Sharma, Rajat Chandak, Ihab Dalwai, Manish Banthia, Akhil Kakkar"
+    },
+    "cagr": {
+      "cagr_1y": 12.22,
+      "cagr_3y": 13.64,
+      "cagr_5y": 12.77,
+      "cagr_since_inception": 11.38
+    },
+    "top_5_stock_holdings": null,
+    "top_5_sector_holdings": null,
+    "nav": {
+      "value": 76.15,
+      "date": "2026-03-05",
+      "display": "Rs. 76.1500 (as of 05 Mar 2026)"
+    },
+    "scheme_page_url": "https://www.icicipruamc.com/mutual-fund/hybrid-funds/icici-prudential-balanced-advantage-fund/202"
+  },
+  {
+    "fund_name": "ICICI Prudential ELSS Tax Saver Fund",
+    "source_url": "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20ELSS%20Tax%20Saver%20Fund.pdf",
+    "scrape_date": "2026-03-04",
+    "expense_ratio": {
+      "value": 1.08,
+      "unit": "%",
+      "display": "1.08% p.a."
+    },
+    "exit_load": {
+      "value": 0,
+      "unit": "%",
+      "period": null,
+      "display": "NIL"
+    },
+    "minimum_sip": {
+      "value": 500,
+      "unit": "Rs",
+      "display": "Rs. 500"
+    },
+    "lock_in": {
+      "value": 3,
+      "unit": "years",
+      "display": "3 years (ELSS)"
+    },
+    "rating": null,
+    "riskometer": {
+      "value": "Very High",
+      "display": "Very High"
+    },
+    "benchmark": {
+      "value": "Nifty 500 TRI",
+      "display": "Nifty 500 TRI"
+    },
+    "statement_download": {
+      "available": true,
+      "instructions": [
+        "Statements can be downloaded from ICICI Prudential AMC website or registrar portal."
+      ],
+      "display": "Available - Check ICICI Prudential AMC website or registrar portal"
+    },
+    "fund_managers": {
+      "value": [
+        "Mittul Kalawadia"
+      ],
+      "display": "Mittul Kalawadia"
+    },
+    "cagr": {
+      "cagr_1y": 9.92,
+      "cagr_3y": 16.37,
+      "cagr_5y": 16.62,
+      "cagr_since_inception": 18.89
+    },
+    "top_5_stock_holdings": {
+      "value": [
+        {
+          "name": "ICICI Bank Ltd.",
+          "pct": "7.61"
+        },
+        {
+          "name": "HDFC Bank Ltd.",
+          "pct": "6.94"
+        },
+        {
+          "name": "Sun Pharmaceutical Industries Ltd.",
+          "pct": "5.95"
+        },
+        {
+          "name": "Reliance Industries Ltd.",
+          "pct": "5.86"
+        },
+        {
+          "name": "Axis Bank Ltd.",
+          "pct": "5.61"
+        }
+      ],
+      "display": "ICICI Bank Ltd. (7.61%); HDFC Bank Ltd. (6.94%); Sun Pharmaceutical Industries Ltd. (5.95%); Reliance Industries Ltd. (5.86%); Axis Bank Ltd. (5.61%)"
+    },
+    "top_5_sector_holdings": {
+      "value": [
+        {
+          "name": "Financial Services",
+          "pct": "28.28"
+        },
+        {
+          "name": "Healthcare",
+          "pct": "11.79"
+        },
+        {
+          "name": "Consumer Services",
+          "pct": "10.55"
+        },
+        {
+          "name": "Automobile And Auto Components",
+          "pct": "10.38"
+        },
+        {
+          "name": "Oil, Gas & Consumable Fuels",
+          "pct": "7.54"
+        }
+      ],
+      "display": "Financial Services (28.28%); Healthcare (11.79%); Consumer Services (10.55%); Automobile And Auto Components (10.38%); Oil, Gas & Consumable Fuels (7.54%)"
+    },
+    "nav": {
+      "value": 920.51,
+      "date": "2026-03-05",
+      "display": "Rs. 920.5100 (as of 05 Mar 2026)"
+    },
+    "scheme_page_url": "https://www.icicipruamc.com/mutual-fund/equity-funds/icici-prudential-elss-tax-saver-fund/2"
+  },
+  {
+    "fund_name": "ICICI Prudential Energy Opportunities Fund",
+    "source_url": "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20Energy%20Opportunities%20Fund.pdf",
+    "scrape_date": "2026-03-04",
+    "expense_ratio": {
+      "value": 0.58,
+      "unit": "%",
+      "display": "0.58% p.a."
+    },
+    "exit_load": null,
+    "minimum_sip": {
+      "value": 5000,
+      "unit": "Rs",
+      "display": "Rs. 5000"
+    },
+    "lock_in": null,
+    "rating": null,
+    "riskometer": {
+      "value": "Very High",
+      "display": "Very High"
+    },
+    "benchmark": {
+      "value": "Nifty Energy TRI",
+      "display": "Nifty Energy TRI"
+    },
+    "statement_download": {
+      "available": true,
+      "instructions": [
+        "Statements can be downloaded from ICICI Prudential AMC website or registrar portal."
+      ],
+      "display": "Available - Check ICICI Prudential AMC website or registrar portal"
+    },
+    "fund_managers": {
+      "value": [
+        "eme will be managed by Mr. Sankaran Naren",
+        "they have been",
+        "d to be the Fund Manager with effect from",
+        "crores",
+        "Regular Plan Direct Plan",
+        "Years - - -",
+        "Since"
+      ],
+      "display": "eme will be managed by Mr. Sankaran Naren, they have been, d to be the Fund Manager with effect from, crores, Regular Plan Direct Plan, Years - - -, Since"
+    },
+    "cagr": null,
+    "top_5_stock_holdings": {
+      "value": [
+        {
+          "name": "NTPC Ltd.",
+          "pct": "9.60"
+        },
+        {
+          "name": "Reliance Industries Ltd.",
+          "pct": "9.17"
+        },
+        {
+          "name": "Indian Oil Corporation Ltd.",
+          "pct": "8.83"
+        },
+        {
+          "name": "Bharat Petroleum Corporation Ltd.",
+          "pct": "6.85"
+        },
+        {
+          "name": "Oil & Natural Gas Corporation Ltd.",
+          "pct": "5.86"
+        }
+      ],
+      "display": "NTPC Ltd. (9.60%); Reliance Industries Ltd. (9.17%); Indian Oil Corporation Ltd. (8.83%); Bharat Petroleum Corporation Ltd. (6.85%); Oil & Natural Gas Corporation Ltd. (5.86%)"
+    },
+    "top_5_sector_holdings": {
+      "value": [
+        {
+          "name": "Oil, Gas & Consumable Fuels",
+          "pct": "45.74"
+        },
+        {
+          "name": "Power",
+          "pct": "20.60"
+        },
+        {
+          "name": "Capital Goods",
+          "pct": "15.99"
+        },
+        {
+          "name": "Construction",
+          "pct": "8.66"
+        },
+        {
+          "name": "Financial Services",
+          "pct": "2.09"
+        }
+      ],
+      "display": "Oil, Gas & Consumable Fuels (45.74%); Power (20.60%); Capital Goods (15.99%); Construction (8.66%); Financial Services (2.09%)"
+    },
+    "nav": {
+      "value": 10.65,
+      "date": "2026-03-05",
+      "display": "Rs. 10.6500 (as of 05 Mar 2026)"
+    },
+    "scheme_page_url": "https://www.icicipruamc.com/mutual-fund/equity-funds/icici-prudential-energy-opportunities-fund/1878"
+  },
+  {
+    "fund_name": "ICICI Prudential Large Cap Fund",
+    "source_url": "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20Large%20Cap%20Fund.pdf",
+    "scrape_date": "2026-03-04",
+    "expense_ratio": {
+      "value": 0.86,
+      "unit": "%",
+      "display": "0.86% p.a."
+    },
+    "exit_load": null,
+    "minimum_sip": {
+      "value": 250,
+      "unit": "Rs",
+      "display": "Rs. 250"
+    },
+    "lock_in": null,
+    "rating": null,
+    "riskometer": {
+      "value": "Very High",
+      "display": "Very High"
+    },
+    "benchmark": {
+      "value": "Nifty 100 TRI",
+      "display": "Nifty 100 TRI"
+    },
+    "statement_download": {
+      "available": true,
+      "instructions": [
+        "Statements can be downloaded from ICICI Prudential AMC website or registrar portal."
+      ],
+      "display": "Available - Check ICICI Prudential AMC website or registrar portal"
+    },
+    "fund_managers": {
+      "value": [
+        "Anish Tawakley",
+        "Vaibhav Dusad"
+      ],
+      "display": "Anish Tawakley, Vaibhav Dusad"
+    },
+    "cagr": {
+      "cagr_1y": 11.32,
+      "cagr_3y": 18.31,
+      "cagr_5y": 17.99,
+      "cagr_since_inception": 14.9
+    },
+    "top_5_stock_holdings": {
+      "value": [
+        {
+          "name": "HDFC Bank Ltd.",
+          "pct": "9.78"
+        },
+        {
+          "name": "ICICI Bank Ltd.",
+          "pct": "8.11"
+        },
+        {
+          "name": "Reliance Industries Ltd.",
+          "pct": "6.93"
+        },
+        {
+          "name": "Larsen & Toubro Ltd.",
+          "pct": "6.47"
+        },
+        {
+          "name": "Bharti Airtel Ltd.",
+          "pct": "4.64"
+        }
+      ],
+      "display": "HDFC Bank Ltd. (9.78%); ICICI Bank Ltd. (8.11%); Reliance Industries Ltd. (6.93%); Larsen & Toubro Ltd. (6.47%); Bharti Airtel Ltd. (4.64%)"
+    },
+    "top_5_sector_holdings": {
+      "value": [
+        {
+          "name": "Financial Services",
+          "pct": "28.36"
+        },
+        {
+          "name": "Automobile And Auto Components",
+          "pct": "10.34"
+        },
+        {
+          "name": "Oil, Gas & Consumable Fuels",
+          "pct": "9.65"
+        },
+        {
+          "name": "Construction",
+          "pct": "6.47"
+        },
+        {
+          "name": "Information Technology",
+          "pct": "5.32"
+        }
+      ],
+      "display": "Financial Services (28.36%); Automobile And Auto Components (10.34%); Oil, Gas & Consumable Fuels (9.65%); Construction (6.47%); Information Technology (5.32%)"
+    },
+    "nav": {
+      "value": 110.05,
+      "date": "2026-03-05",
+      "display": "Rs. 110.0500 (as of 05 Mar 2026)"
+    },
+    "scheme_page_url": "https://www.icicipruamc.com/mutual-fund/equity-funds/icici-prudential-bluechip-fund/211"
+  },
+  {
+    "fund_name": "ICICI Prudential MidCap Fund",
+    "source_url": "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20Midcap%20Fund.pdf",
+    "scrape_date": "2026-03-04",
+    "expense_ratio": {
+      "value": 1.03,
+      "unit": "%",
+      "display": "1.03% p.a."
+    },
+    "exit_load": {
+      "value": 1.0,
+      "unit": "%",
+      "period": "1 year",
+      "display": "1.0% within 1 year"
+    },
+    "minimum_sip": {
+      "value": 5000,
+      "unit": "Rs",
+      "display": "Rs. 5000"
+    },
+    "lock_in": null,
+    "rating": null,
+    "riskometer": {
+      "value": "Very High",
+      "display": "Very High"
+    },
+    "benchmark": {
+      "value": "Nifty Midcap 150 TRI",
+      "display": "Nifty Midcap 150 TRI"
+    },
+    "statement_download": {
+      "available": true,
+      "instructions": [
+        "Statements can be downloaded from ICICI Prudential AMC website or registrar portal."
+      ],
+      "display": "Available - Check ICICI Prudential AMC website or registrar portal"
+    },
+    "fund_managers": {
+      "value": [
+        "Lalit Kumar"
+      ],
+      "display": "Lalit Kumar"
+    },
+    "cagr": {
+      "cagr_1y": 11.05,
+      "cagr_3y": 23.21,
+      "cagr_5y": 22.82,
+      "cagr_since_inception": 17.69
+    },
+    "top_5_stock_holdings": {
+      "value": [
+        {
+          "name": "Muthoot Finance Ltd.",
+          "pct": "4.41"
+        },
+        {
+          "name": "Jindal Steel Ltd.",
+          "pct": "4.12"
+        },
+        {
+          "name": "Multi Commodity Exchange Of India Ltd.",
+          "pct": "3.87"
+        },
+        {
+          "name": "UPL Ltd.",
+          "pct": "3.86"
+        },
+        {
+          "name": "APL Apollo Tubes Ltd.",
+          "pct": "3.82"
+        }
+      ],
+      "display": "Muthoot Finance Ltd. (4.41%); Jindal Steel Ltd. (4.12%); Multi Commodity Exchange Of India Ltd. (3.87%); UPL Ltd. (3.86%); APL Apollo Tubes Ltd. (3.82%)"
+    },
+    "top_5_sector_holdings": {
+      "value": [
+        {
+          "name": "Financial Services",
+          "pct": "21.64"
+        },
+        {
+          "name": "Capital Goods",
+          "pct": "21.11"
+        },
+        {
+          "name": "Metals & Mining",
+          "pct": "12.42"
+        },
+        {
+          "name": "Chemicals",
+          "pct": "11.21"
+        },
+        {
+          "name": "Automobile And Auto Components",
+          "pct": "8.03"
+        }
+      ],
+      "display": "Financial Services (21.64%); Capital Goods (21.11%); Metals & Mining (12.42%); Chemicals (11.21%); Automobile And Auto Components (8.03%)"
+    },
+    "nav": {
+      "value": 314.76,
+      "date": "2026-03-05",
+      "display": "Rs. 314.7600 (as of 05 Mar 2026)"
+    },
+    "scheme_page_url": "https://www.icicipruamc.com/mutual-fund/equity-funds/icici-prudential-midcap-fund/15"
+  },
+  {
+    "fund_name": "ICICI Prudential Multi Asset Fund",
+    "source_url": "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/2.%20Hybrid%20Schemes/ICICI%20Prudential%20Multi-Asset%20Fund.pdf",
+    "scrape_date": "2026-03-04",
+    "expense_ratio": {
+      "value": 0.64,
+      "unit": "%",
+      "display": "0.64% p.a."
+    },
+    "exit_load": {
+      "value": 0,
+      "unit": "%",
+      "period": null,
+      "display": "NIL (conditions may apply)"
+    },
+    "minimum_sip": {
+      "value": 250,
+      "unit": "Rs",
+      "display": "Rs. 250"
+    },
+    "lock_in": null,
+    "rating": null,
+    "riskometer": {
+      "value": "Very High",
+      "display": "Very High"
+    },
+    "benchmark": {
+      "value": "Index",
+      "display": "Index"
+    },
+    "statement_download": {
+      "available": true,
+      "instructions": [
+        "Statements can be downloaded from ICICI Prudential AMC website or registrar portal."
+      ],
+      "display": "Available - Check ICICI Prudential AMC website or registrar portal"
+    },
+    "fund_managers": {
+      "value": [
+        "Sankaran Naren",
+        "Ihab Dalwai",
+        "Manish Banthia"
+      ],
+      "display": "Sankaran Naren, Ihab Dalwai, Manish Banthia"
+    },
+    "cagr": null,
+    "top_5_stock_holdings": null,
+    "top_5_sector_holdings": null,
+    "nav": {
+      "value": 809.3587,
+      "date": "2026-03-05",
+      "display": "Rs. 809.3587 (as of 05 Mar 2026)"
+    },
+    "scheme_page_url": "https://www.icicipruamc.com/mutual-fund/hybrid-funds/icici-prudential-multi-asset-fund/55"
+  },
+  {
+    "fund_name": "ICICI Prudential Multicap Fund",
+    "source_url": "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20Multicap%20Fund.pdf",
+    "scrape_date": "2026-03-04",
+    "expense_ratio": {
+      "value": 0.93,
+      "unit": "%",
+      "display": "0.93% p.a."
+    },
+    "exit_load": {
+      "value": 0,
+      "unit": "%",
+      "period": null,
+      "display": "NIL (conditions may apply)"
+    },
+    "minimum_sip": {
+      "value": 250,
+      "unit": "Rs",
+      "display": "Rs. 250"
+    },
+    "lock_in": null,
+    "rating": null,
+    "riskometer": {
+      "value": "Very High",
+      "display": "Very High"
+    },
+    "benchmark": {
+      "value": "Index",
+      "display": "Index"
+    },
+    "statement_download": {
+      "available": true,
+      "instructions": [
+        "Statements can be downloaded from ICICI Prudential AMC website or registrar portal."
+      ],
+      "display": "Available - Check ICICI Prudential AMC website or registrar portal"
+    },
+    "fund_managers": {
+      "value": [
+        "Lalit Kumar"
+      ],
+      "display": "Lalit Kumar"
+    },
+    "cagr": {
+      "cagr_1y": 5.72,
+      "cagr_3y": 19.94,
+      "cagr_5y": 19.76,
+      "cagr_since_inception": 15.07
+    },
+    "top_5_stock_holdings": {
+      "value": [
+        {
+          "name": "Vedanta Ltd.",
+          "pct": "4.22"
+        },
+        {
+          "name": "Bharti Airtel Ltd.",
+          "pct": "4.04"
+        },
+        {
+          "name": "Ultratech Cement Ltd.",
+          "pct": "2.67"
+        },
+        {
+          "name": "Jindal Steel Ltd.",
+          "pct": "2.46"
+        },
+        {
+          "name": "Axis Bank Ltd.",
+          "pct": "2.44"
+        }
+      ],
+      "display": "Vedanta Ltd. (4.22%); Bharti Airtel Ltd. (4.04%); Ultratech Cement Ltd. (2.67%); Jindal Steel Ltd. (2.46%); Axis Bank Ltd. (2.44%)"
+    },
+    "top_5_sector_holdings": {
+      "value": [
+        {
+          "name": "Financial Services",
+          "pct": "16.42"
+        },
+        {
+          "name": "Capital Goods",
+          "pct": "14.81"
+        },
+        {
+          "name": "Metals & Mining",
+          "pct": "9.59"
+        },
+        {
+          "name": "Chemicals",
+          "pct": "9.02"
+        },
+        {
+          "name": "Automobile And Auto Components",
+          "pct": "8.00"
+        }
+      ],
+      "display": "Financial Services (16.42%); Capital Goods (14.81%); Metals & Mining (9.59%); Chemicals (9.02%); Automobile And Auto Components (8.00%)"
+    },
+    "nav": {
+      "value": 782.73,
+      "date": "2026-03-05",
+      "display": "Rs. 782.7300 (as of 05 Mar 2026)"
+    },
+    "scheme_page_url": "https://www.icicipruamc.com/mutual-fund/equity-funds/icici-prudential-multicap-fund/22"
+  },
+  {
+    "fund_name": "ICICI Prudential NASDAQ 100 Index Fund",
+    "source_url": "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Passive%20Schemes/Index%20Schemes/ICICI%20Prudential%20NASDAQ%20100%20Index%20Fund.pdf",
+    "scrape_date": "2026-03-04",
+    "expense_ratio": {
+      "value": 0.61,
+      "unit": "%",
+      "display": "0.61% p.a."
+    },
+    "exit_load": {
+      "value": 0,
+      "unit": "%",
+      "period": null,
+      "display": "NIL"
+    },
+    "minimum_sip": {
+      "value": 100,
+      "unit": "Rs",
+      "display": "Rs. 100"
+    },
+    "lock_in": null,
+    "rating": null,
+    "riskometer": {
+      "value": "Very High",
+      "display": "Very High"
+    },
+    "benchmark": {
+      "value": "NASDAQ-100 TRI",
+      "display": "NASDAQ-100 TRI"
+    },
+    "statement_download": {
+      "available": true,
+      "instructions": [
+        "Statements can be downloaded from ICICI Prudential AMC website or registrar portal."
+      ],
+      "display": "Available - Check ICICI Prudential AMC website or registrar portal"
+    },
+    "fund_managers": {
+      "value": [
+        "Sharmila D'Silva",
+        "Nitya Mishra"
+      ],
+      "display": "Sharmila D'Silva, Nitya Mishra"
+    },
+    "cagr": {
+      "cagr_1y": 25.34,
+      "cagr_3y": 35.21,
+      "cagr_5y": null,
+      "cagr_since_inception": 17.02
+    },
+    "top_5_stock_holdings": null,
+    "top_5_sector_holdings": null,
+    "nav": {
+      "value": 19.5514,
+      "date": "2026-03-05",
+      "display": "Rs. 19.5514 (as of 05 Mar 2026)"
+    },
+    "scheme_page_url": "https://www.icicipruamc.com/mutual-fund/index-funds/icici-prudential-nasdaq-100-index-fund/1827"
+  },
+  {
+    "fund_name": "ICICI Prudential Smallcap Fund",
+    "source_url": "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20Smallcap%20Fund.pdf",
+    "scrape_date": "2026-03-04",
+    "expense_ratio": {
+      "value": 0.77,
+      "unit": "%",
+      "display": "0.77% p.a."
+    },
+    "exit_load": null,
+    "minimum_sip": {
+      "value": 5000,
+      "unit": "Rs",
+      "display": "Rs. 5000"
+    },
+    "lock_in": null,
+    "rating": null,
+    "riskometer": {
+      "value": "Very High",
+      "display": "Very High"
+    },
+    "benchmark": {
+      "value": "Nifty Smallcap 250 TRI",
+      "display": "Nifty Smallcap 250 TRI"
+    },
+    "statement_download": {
+      "available": true,
+      "instructions": [
+        "Statements can be downloaded from ICICI Prudential AMC website or registrar portal."
+      ],
+      "display": "Available - Check ICICI Prudential AMC website or registrar portal"
+    },
+    "fund_managers": {
+      "value": [
+        "Anish Tawakley",
+        "Aatur Shah"
+      ],
+      "display": "Anish Tawakley, Aatur Shah"
+    },
+    "cagr": {
+      "cagr_1y": 0.37,
+      "cagr_3y": 16.65,
+      "cagr_5y": 22.0,
+      "cagr_since_inception": 12.53
+    },
+    "top_5_stock_holdings": {
+      "value": [
+        {
+          "name": "HDFC Bank Ltd.",
+          "pct": "4.78"
+        },
+        {
+          "name": "Index Future",
+          "pct": "3.90"
+        },
+        {
+          "name": "Gujarat Pipavav Port Ltd.",
+          "pct": "2.67"
+        },
+        {
+          "name": "Jamna Auto Industries Ltd.",
+          "pct": "2.56"
+        },
+        {
+          "name": "Atul Ltd.",
+          "pct": "2.53"
+        }
+      ],
+      "display": "HDFC Bank Ltd. (4.78%); Index Future (3.90%); Gujarat Pipavav Port Ltd. (2.67%); Jamna Auto Industries Ltd. (2.56%); Atul Ltd. (2.53%)"
+    },
+    "top_5_sector_holdings": {
+      "value": [
+        {
+          "name": "Financial Services",
+          "pct": "13.91"
+        },
+        {
+          "name": "Capital Goods",
+          "pct": "13.21"
+        },
+        {
+          "name": "Chemicals",
+          "pct": "11.75"
+        },
+        {
+          "name": "Automobile And Auto Components",
+          "pct": "9.45"
+        },
+        {
+          "name": "Healthcare",
+          "pct": "8.31"
+        }
+      ],
+      "display": "Financial Services (13.91%); Capital Goods (13.21%); Chemicals (11.75%); Automobile And Auto Components (9.45%); Healthcare (8.31%)"
+    },
+    "nav": {
+      "value": 81.46,
+      "date": "2026-03-05",
+      "display": "Rs. 81.4600 (as of 05 Mar 2026)"
+    },
+    "scheme_page_url": "https://www.icicipruamc.com/mutual-fund/equity-funds/icici-prudential-smallcap-fund/168"
+  },
+  {
+    "fund_name": "ICICI Prudential US Bluechip Equity Fund",
+    "source_url": "https://www.icicipruamc.com/blob/knowledgecentre/factsheet-schemes/Schemes/1.%20Equity%20Schemes/ICICI%20Prudential%20US%20Bluechip%20Equity%20Fund.pdf",
+    "scrape_date": "2026-03-04",
+    "expense_ratio": {
+      "value": 1.16,
+      "unit": "%",
+      "display": "1.16% p.a."
+    },
+    "exit_load": null,
+    "minimum_sip": {
+      "value": 100,
+      "unit": "Rs",
+      "display": "Rs. 100"
+    },
+    "lock_in": null,
+    "rating": null,
+    "riskometer": {
+      "value": "Very High",
+      "display": "Very High"
+    },
+    "benchmark": {
+      "value": "P 500",
+      "display": "P 500"
+    },
+    "statement_download": {
+      "available": true,
+      "instructions": [
+        "Statements can be downloaded from ICICI Prudential AMC website or registrar portal."
+      ],
+      "display": "Available - Check ICICI Prudential AMC website or registrar portal"
+    },
+    "fund_managers": {
+      "value": [
+        "Ritesh Lunawat, Sharmila D'silva",
+        "Nitya Mishra",
+        "Ritesh Lunawat",
+        "Sharmila D'silva"
+      ],
+      "display": "Ritesh Lunawat, Sharmila D'silva, Nitya Mishra, Ritesh Lunawat, Sharmila D'silva"
+    },
+    "cagr": {
+      "cagr_1y": 15.81,
+      "cagr_3y": 18.61,
+      "cagr_5y": 13.7,
+      "cagr_since_inception": 15.78
+    },
+    "top_5_stock_holdings": {
+      "value": [
+        {
+          "name": "Estee Lauder Cos Inc",
+          "pct": "3.08"
+        },
+        {
+          "name": "Agilent Technologies Co Ltd",
+          "pct": "2.63"
+        },
+        {
+          "name": "Huntington Ingalls Industries Inc",
+          "pct": "2.52"
+        },
+        {
+          "name": "GE HealthCare Technologies Inc",
+          "pct": "2.52"
+        },
+        {
+          "name": "Kenvue Inc",
+          "pct": "2.50"
+        }
+      ],
+      "display": "Estee Lauder Cos Inc (3.08%); Agilent Technologies Co Ltd (2.63%); Huntington Ingalls Industries Inc (2.52%); GE HealthCare Technologies Inc (2.52%); Kenvue Inc (2.50%)"
+    },
+    "top_5_sector_holdings": {
+      "value": [
+        {
+          "name": "Information Technology",
+          "pct": "17.72"
+        },
+        {
+          "name": "Consumer Goods",
+          "pct": "12.73"
+        },
+        {
+          "name": "Pharma",
+          "pct": "6.03"
+        },
+        {
+          "name": "Industrial Manufacturing",
+          "pct": "5.73"
+        },
+        {
+          "name": "Financial Services",
+          "pct": "5.44"
+        }
+      ],
+      "display": "Information Technology (17.72%); Consumer Goods (12.73%); Pharma (6.03%); Industrial Manufacturing (5.73%); Financial Services (5.44%)"
+    },
+    "nav": {
+      "value": 73.92,
+      "date": "2026-03-05",
+      "display": "Rs. 73.9200 (as of 05 Mar 2026)"
+    },
+    "scheme_page_url": "https://www.icicipruamc.com/mutual-fund/equity-funds/icici-prudential-us-bluechip-equity-fund/437"
+  }
+]
