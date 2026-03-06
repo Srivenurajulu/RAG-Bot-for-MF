@@ -236,7 +236,7 @@ if prompt := st.chat_input("Ask about expense ratio, NAV, SIP, riskometer..."):
 
 
 st.caption(
-    "<p style='text-align: center; color: red; font-size: 0.8rem;'>"
+    "<p style='text-align: center; color: red; font-size: 0.8rem; font-weight: bold;'>"
     "⚠️ Do not enter PAN, Aadhaar, account numbers, folio number, OTP, email or phone."
     "</p>", 
     unsafe_allow_html=True
