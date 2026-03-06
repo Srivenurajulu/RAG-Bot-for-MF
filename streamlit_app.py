@@ -33,7 +33,7 @@ import streamlit as st
 from Phase4_Backend_API.chat import handle_chat
 
 st.set_page_config(
-    page_title="Mutaul Fund FAQ Assistant",
+    page_title="Mutual Fund FAQ Assistant",
     page_icon="📊",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -171,7 +171,10 @@ if "context_fund" not in st.session_state:
 st.title("📊 Mutaul Fund FAQ Assistant")
 
 st.caption(
-"Factual Answers Only - Mutual Fund FAQ Assistant • Expense Ratio • NAV • SIP • Riskometer • Benchmark"
+    "<p style='text-align: center; color: brown; font-size: 0.8rem;'>"
+    "Factual Answers Only - Mutual Fund FAQ Assistant • Expense Ratio • NAV • SIP • Riskometer • Benchmark"
+    "</p>", 
+    unsafe_allow_html=True
 )
 
 
@@ -234,7 +237,7 @@ if prompt := st.chat_input("Ask about expense ratio, NAV, SIP, riskometer..."):
 
 
 st.caption(
-    "<p style='text-align: center; color: white; font-size: 0.8rem;'>"
+    "<p style='text-align: center; color: brown; font-size: 0.8rem;'>"
     "⚠️ Do not enter PAN, Aadhaar, account numbers, folio number, OTP, email or phone."
     "</p>", 
     unsafe_allow_html=True
