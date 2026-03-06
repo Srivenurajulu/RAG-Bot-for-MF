@@ -34,7 +34,7 @@ from Phase4_Backend_API.chat import handle_chat
 
 st.set_page_config(
     page_title="Mutual Fund FAQ Assistant",
-    page_icon="📊",
+    page_icon="💰",
     layout="centered",
     initial_sidebar_state="collapsed",
 )
