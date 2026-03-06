@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Mutual Fund FAQ Assistant</title>
 
-<style>
-* { box-sizing: border-box; }
+  <style>
+
+*{box-sizing:border-box;}
 
 body{
 font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,sans-serif;
@@ -18,83 +19,116 @@ align-items:center;
 justify-content:center;
 padding:2rem;
 
-/* BRIGHT RED → GOLD BACKGROUND */
-background: linear-gradient(135deg,#7a0000 0%,#b30000 40%,#ffcc33 100%);
+/* PREMIUM GOLD → BRONZE → DARK BROWN */
+background: linear-gradient(135deg,
+#f5d27a 0%,
+#e0b45c 25%,
+#b8863b 50%,
+#6b3e1d 75%,
+#3b220f 100%);
+
 color:#1a1a1a;
 }
 
 /* CARD */
+
 .card{
 max-width:480px;
 text-align:center;
-padding:2.5rem;
+padding:2.6rem;
 
-/* GOLD GLASS EFFECT */
-background: rgba(255,215,0,0.12);
-backdrop-filter: blur(10px);
+/* luxury glass effect */
 
-border-radius:16px;
-border:1px solid rgba(255,215,0,0.5);
+background: rgba(255,255,255,0.15);
+backdrop-filter: blur(12px);
 
-box-shadow:0 12px 40px rgba(120,0,0,0.45);
+border-radius:18px;
+
+border:1px solid rgba(255,215,0,0.55);
+
+box-shadow:
+0 15px 45px rgba(0,0,0,0.35),
+0 0 25px rgba(255,215,0,0.25);
 }
 
 /* HEADING */
+
 h1{
 color:#FFD700;
-font-size:1.9rem;
+font-size:2rem;
 margin-top:0;
 letter-spacing:1px;
+text-shadow:0 2px 8px rgba(0,0,0,0.4);
 }
 
 /* TEXT */
+
 p{
-color:#2b0000;
+color:#2b1605;
 line-height:1.6;
 margin:1rem 0;
+font-weight:500;
 }
 
 /* BUTTON */
+
 .btn{
 display:inline-block;
 margin-top:1.3rem;
 padding:0.9rem 2rem;
 
-background: linear-gradient(135deg,#FFD700,#ff4d4d);
+/* GOLD BUTTON */
 
-color:#5a0000;
+background: linear-gradient(135deg,
+#FFD700,
+#f7c948,
+#b8860b);
+
+color:#4a2a00;
 text-decoration:none;
 font-weight:700;
-border-radius:10px;
+border-radius:12px;
 
 transition:all 0.25s ease;
-box-shadow:0 6px 18px rgba(120,0,0,0.35);
+
+box-shadow:
+0 6px 20px rgba(0,0,0,0.35),
+0 0 10px rgba(255,215,0,0.35);
 }
 
 .btn:hover{
-transform:translateY(-3px) scale(1.03);
-box-shadow:0 10px 28px rgba(120,0,0,0.55);
+
+transform:translateY(-3px) scale(1.04);
+
+box-shadow:
+0 10px 30px rgba(0,0,0,0.45),
+0 0 18px rgba(255,215,0,0.6);
 }
 
 /* NOTES */
+
 .note{
 font-size:0.85rem;
-color:#3b0000;
+color:#3b220f;
 margin-top:1.5rem;
 }
 
 .url-placeholder{
 font-size:0.75rem;
-color:#6b0000;
+color:#4a2a00;
 margin-top:0.5rem;
 }
 
 </style>
+
 </head>
 <body>
   <div class="card">
     <h1>Mutual Fund FAQ Assistant</h1>
-    <p>The Mutual Fund Assistant is available to address factual inquiries concerning ICICI Prudential AMC mutual fund schemes. Specifically, we can provide information related to the expense ratio, exit load, SIP (Systematic Investment Plan) details, ELSS (Equity Linked Savings Scheme) lock-in periods, riskometer assessments, benchmark indices used, and access to relevant statements. Please direct any specific questions related to these areas to the Mutual Fund Assistant for comprehensive assistance.</p>
+    <p>The Mutual Fund Assistant is available to address factual inquiries concerning ICICI Prudential AMC mutual fund schemes. 
+      Specifically, we can provide information related to the expense ratio, exit load, 
+      SIP (Systematic Investment Plan) details, ELSS (Equity Linked Savings Scheme) lock-in periods, riskometer assessments, benchmark indices used, and access to relevant statements. 
+      Please direct any specific questions related to these areas to the Mutual Fund Assistant for comprehensive assistance.</p>
     <a class="btn" href="https://mrag-bot-for-mf-dczfpkqhj5mahejzbyvj9x.streamlit.app/" id="chat-link">Try the chatbot</a>
     <p class="note">Do not enter PAN, Aadhaar, account numbers, or other personal information.</p>
   </div>
