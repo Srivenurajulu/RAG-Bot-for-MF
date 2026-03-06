@@ -46,9 +46,14 @@ st.markdown("""
 
 /* ---------- MAIN APP BACKGROUND ---------- */
 
-.stApp{
-background: linear-gradient(180deg,#f8f6f2 0%, #efe8da 100%);
-font-family: "Segoe UI", system-ui, sans-serif;
+.stApp {
+    /* Solid black background */
+    background: #000000; 
+    
+    /* Optional: Use a dark gradient for depth */
+    /* background: linear-gradient(180deg, #121212 0%, #000000 100%); */
+    
+    font-family: "Segoe UI", system-ui, sans-serif;
 }
 
 /* ---------- MAIN CONTAINER ---------- */
